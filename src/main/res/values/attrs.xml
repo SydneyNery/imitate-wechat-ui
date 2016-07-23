@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="imageViewPager">
+        <!-- 底部指示当前图示的高度  -->
+        <attr name="dotsViewHeight" format="dimension" />
+        <!-- 底部指示当前图示之间的距离  -->
+        <attr name="dotsSpacing" format="dimension" />
+        <!-- 当前底部指示当前图示的图片  -->
+        <attr name="dotsFocusImage" format="reference" />
+        <!-- 非当前底部指示当前图示的图片  -->
+        <attr name="dotsBlurImage" format="reference" />
+        <!-- 底部指示物的背景颜色 -->
+        <attr name="dotsBackgroundColor" format="color" />
+        <!-- 底部指示物的背景颜色或背景图的透明度，取值为0-1,0代表透明 -->
+        <attr name="dotsBgAlpha" format="float" />
+        <!-- 定义ViewPager自动切换的时间间隔，单位为ms，默认为不自动切换 -->
+        <attr name="changeInterval" format="integer" />
+        <!-- 背景图片的缩放 -->
+        <attr name="android:scaleType" />
+    </declare-styleable>
+</resources>

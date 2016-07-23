@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Better Me</string>
+    <string name="bottom_btn_search">Search</string>
+    <string name="bottom_btn_destination">Destination</string>
+    <string name="bottom_btn_account">Account</string>
+
+</resources>

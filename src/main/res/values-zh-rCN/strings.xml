@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bottom_btn_search">发现</string>
+    <string name="bottom_btn_destination">目的地</string>
+    <string name="bottom_btn_account">我的</string>
+
+</resources>

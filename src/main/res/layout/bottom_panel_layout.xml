@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.virtual.plan.tomatoplan.ui.BottomControlPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_panel"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_panel_height"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical">
+
+    <com.virtual.plan.tomatoplan.ui.ImageText
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.virtual.plan.tomatoplan.ui.ImageText
+        android:id="@+id/btn_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <com.virtual.plan.tomatoplan.ui.ImageText
+        android:id="@+id/btn_customer_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+</com.virtual.plan.tomatoplan.ui.BottomControlPanel>

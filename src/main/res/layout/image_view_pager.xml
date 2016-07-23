@@ -1,0 +1,20 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagepager="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.virtual.plan.tomatoplan.ui.ImageViewPager
+        android:id="@+id/image_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        imagepager:dotsViewHeight="30dp"
+        imagepager:dotsSpacing="5dp"
+        imagepager:dotsBackgroundColor="@android:color/transparent"
+        imagepager:changeInterval="3000"
+        imagepager:dotsFocusImage="@drawable/point_green"
+        imagepager:dotsBlurImage="@drawable/point_gray" />
+         <!-- imagepager:dotsBgAlpha="0.5" -->
+</merge>
